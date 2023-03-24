@@ -1,4 +1,7 @@
-data/
+data/sequences
+data/*.sh
+
+lightning_logs/
 note/.ipynb_checkpoints/
 *.egg-info/
 **/__pycache__/
