@@ -2,8 +2,8 @@ import pandas as pd
 
 manifest = pd.read_csv('manifest_230324.csv')
 
-# Randomly sample 10% of the dataset.
-manifest = manifest.sample(frac=0.1, random_state=42)
+# Randomly sample 3% of the dataset.
+manifest = manifest.sample(frac=0.03, random_state=42)
 
 f2type = {r.filename:r.seq_type for r in manifest.to_records()}
 f2study = {r.filename:r.study for r in manifest.to_records()}
