@@ -23,3 +23,13 @@ $ snakemake -s download.smk -j1
 *NOTE: Only 3% of the entire OAS sequences were downloaded for now due to space and computational cost.*
 
 *TODO: Hint for total # of sequences, total size*
+
+## Citation
+```bibtex
+@article{ruffolo2021deciphering,
+    title = {Deciphering antibody affinity maturation with language models and weakly supervised learning},
+    author = {Ruffolo, Jeffrey A and Gray, Jeffrey J and Sulam, Jeremias},
+    journal = {arXiv},
+    year= {2021}
+}
+```
