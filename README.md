@@ -20,7 +20,7 @@ $ cd data
 $ snakemake -s download.smk -j1
 ```
 
-*NOTE: Only 3% of the entire OAS sequences were downloaded for now due to space and computational cost. (31GB)*
+*NOTE: Only 3% of the entire OAS sequences were downloaded for now due to space and computational cost. (83M sequences, 31GB)*
 
 ## Citation
 ```bibtex
