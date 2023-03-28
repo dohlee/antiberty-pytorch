@@ -1,6 +1,7 @@
 data/sequences
 data/*.sh
 
+**/checkpoints
 lightning_logs/
 note/.ipynb_checkpoints/
 *.egg-info/
