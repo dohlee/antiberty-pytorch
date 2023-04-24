@@ -1,4 +1,6 @@
 # antiberty-pytorch
+[![Lightning](https://img.shields.io/badge/-Lightning-792ee5?logo=pytorchlightning&logoColor=white)](https://github.com/Lightning-AI/lightning)
+
 
 ![antiberty_model](img/banner.png)
 
@@ -9,7 +11,16 @@ $ pip install antiberty-pytorch
 
 ## Reproduction status
 
-I've reproduced AntiBERTy training with about tiny ~1% of the entire OAS data. The training log can be found [here](https://api.wandb.ai/links/dohlee/qqzxgo1v).
+### Number of parameters
+
+![numparams](img/antiberty_num_params.png)
+
+This version of AntiBERTy implementation has 25,759,769 parameters in total, and it matches well with the approx. 26M parameters specified in the paper (See above).
+
+### Training with 1% of the entire OAS data
+
+I've reproduced AntiBERTy training with about tiny ~1% of the entire OAS data (`batch_size=16`, `mask_prob=0.15`) and observed pretty reasonable loss decrease, though it's not for validation set.
+The training log can be found [here](https://api.wandb.ai/links/dohlee/qqzxgo1v).
 
 ![training_log](img/training.png)
 
